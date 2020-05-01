@@ -8,12 +8,20 @@ const teamOneButton = document.querySelector("#teamone-shoot-button")
 resetButton.addEventListener("click", function () {
     let newResetNum = Number(resetNum.innerHTML) + 1;
     resetNum.innerHTML = newResetNum;
+
+
+    if (teamOneGoal.innerHTML > teamTwoGoal.innerHTML){
+        alert("Team 1 Wins!");}
+    if (teamTwoGoal.innerHTML > teamOneGoal.innerHTML){
+        alert("Team 2 Wins!");
+    }
     teamOneButton.className ="";
     teamOneGoal.innerHTML = "0";
     teamOneShots.innerHTML = "0";
     teamTwoButton.className ="";
     teamTwoGoal.innerHTML = "0";
     teamTwoShots.innerHTML = "0";
+    
 })
 // team 1
 teamOneButton.addEventListener("click", function () {
