@@ -15,3 +15,22 @@
 }
 .pass{Color:green}
 .fail{color: red;}
+.game {
+    text-transform: capitalize;
+    color:black;
+    size: 50px;margin-bottom: 1px;
+}
+body {background-image: url(../images/bbcourt.jpg);
+    background-size: cover;
+background-repeat: no-repeat;height: 600px;
+}
+#reset-container{margin-top: 0.1px;font-weight: bolder;
+}
+#reset-container p{-webkit-text-stroke: whitesmoke 0.5px;margin-top: 0.5px;
+        font-size: 30px;font-weight: bolder;
+}
+button {border-radius: 50%;-webkit-text-stroke: orange 0.2px;
+    font-size: 40px;
+}
+.right,.left {-webkit-text-stroke: whitesmoke 0.4px;font-size: 30px;
+font-weight: bold;}

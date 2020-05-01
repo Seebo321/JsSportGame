@@ -3,13 +3,19 @@
 <head>
     <title>JS Game Challenge</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+   
 </head>
 <body>
+
+    <audio id="bounce" src="./assets/audio/bounce.mp3">   
+        </audio> 
+    <audio id="cheer" src="./assets/audio/cheer.mp3"></audio>
+    <audio id="swish" src="./assets/audio/swish.mp3"></audio>
     <div>
-        <h1>My JS Game</h1>
+        <h1 class="game">My JS Game</h1>
         <div id="reset-container">
             <button id="reset-button">RESET</button><br>
-            NUMBER OF RESETS: <span id="num-resets">0</span>
+           <p> NUMBER OF RESETS: <span id="num-resets">0</span><p>
         </div>
         <div class="clear"></div>
         <div class="left">
@@ -21,7 +27,7 @@
                 GOALS: <span id="teamone-numgoals">0</span>
             </div>
             <div>
-                <button id="teamone-shoot-button">SHOOT</button>
+                <button id="teamone-shoot-button" >SHOOT</button>
             </div>
         </div>
         <div class="right">
@@ -38,6 +44,8 @@
         </div>
         <div class="clear"></div>
     </div>
+   
   <script src="./assets/javascript/game.js"></script>
+
 </body>
 </html>
