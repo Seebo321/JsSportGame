@@ -13,3 +13,5 @@
 #reset-container, h1 {
     text-align: center;
 }
+.pass{Color:green}
+.fail{color: red;}
